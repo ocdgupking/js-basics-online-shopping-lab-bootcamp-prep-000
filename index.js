@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var itemPrice = Math.random()
- item = { itemName: 'bananas', itemPrice: x}
+ var x = Math.random()
+ item = { itemName: item, itemPrice: x}
  item.itemPrice = Math.random()
 }
 
