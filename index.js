@@ -13,7 +13,7 @@ function addToCart(item) {
  var x = parseInt(Math.floor(Math.random() * Math.floor(100)))
  item = { itemName: item, itemPrice: x}
  cart.push(item)
- console.log (item + 'has been added to your cart.')
+ console.log (item.itemName + 'has been added to your cart.')
 }
 
 function viewCart() {
