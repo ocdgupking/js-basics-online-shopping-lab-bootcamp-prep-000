@@ -18,8 +18,14 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  for (var i = 0, i < cart.length, i++)
-    
+  if (cart.length == 0) {
+    return 'Your cart is empty.'
+  }
+  else{
+  for (var i = 0, i < cart.length, i++){
+    return cart[i]
+  }
+  } 
 }
 
 
