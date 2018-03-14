@@ -19,10 +19,10 @@ function addToCart(item) {
 function viewCart() {
   for (i = 0, i < cart.length, i++ ){
     if (cart.length == 0) {
-      return 'Your shopping cart is empty.'
+      return ('Your shopping cart is empty.');
     } 
     else {
-      return 'In your cart, you have' + cart
+      return ('In your cart, you have' + cart);
     }
     
 }
